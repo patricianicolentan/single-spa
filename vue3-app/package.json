@@ -1,0 +1,21 @@
+{
+  "name": "vue3-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 8081",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "single-spa-vue": "^3.0.1",
+    "vite-plugin-single-spa": "^1.0.0",
+    "vue": "^3.5.13",
+    "vue3-app": "file:"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5"
+  }
+}
