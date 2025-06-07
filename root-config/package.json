@@ -35,6 +35,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@patricia/root-config": "file:",
     "@types/jest": "^27.0.1",
     "@types/systemjs": "^6.1.1",
     "single-spa": "^5.9.3",
