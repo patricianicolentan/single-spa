@@ -1,18 +1,16 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="app">
+    <h1>Hello from Vue3-App!</h1>
+    <p>This is a minimal single-spa Vue 3 microfrontend.</p>
+    <button @click="count++">Clicked {{ count }} times</button>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
+
+<script setup>
+import { ref } from 'vue';
+
+const count = ref(0);
+</script>
 
 <style scoped>
 .logo {
