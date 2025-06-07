@@ -1,27 +1,13 @@
 <single-spa-router>
-  <!--
-
-    This is the single-spa Layout Definition for your microfrontends.
-    See https://single-spa.js.org/docs/layout-definition/ for more information.
-
-  -->
-
-  <!-- Example layouts you might find helpful:
-
-  <nav>
-    <application name="@org/navbar"></application>
+  <nav style="background:#f9f9f9; color:#333; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; font-family:Segoe UI, sans-serif; box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <div style="font-size:1.2rem;">Microfrontends</div>
+    <div>
+      <a href="/" style="color:#1a73e8; text-decoration:none; font-weight:bold; margin-left:1.5rem;">Welcome</a>
+      <a href="/vue-app" style="color:#1a73e8; text-decoration:none; font-weight:bold; margin-left:1.5rem;">Vue App</a>
+      <a href="/vue3-app" style="color:#1a73e8; text-decoration:none; font-weight:bold; margin-left:1.5rem;">Vue 3 App</a>
+    </div>
   </nav>
-  <route path="settings">
-    <application name="@org/settings"></application>
-  </route>
 
-  -->
-  
-  <nav>
-    <a href="/" style="margin-right: 10px;">Welcome</a>
-    <a href="/vue-app" style="margin-right: 10px;">Vue App</a>
-    <a href="/vue3-app">Vue 3 App</a>
-  </nav>
 
   <main>
     <route default>
